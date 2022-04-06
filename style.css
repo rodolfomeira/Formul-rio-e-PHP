@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.container
+{
+    background-color: rgb(74, 74, 77);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.containerForm
+{
+    background-color: rgb(104, 104, 109);
+    width: 650px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;    
+}
+.containerForm1
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.containerForm2
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formLabel{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.containerForm form label
+{
+    width: 100%;
+    color: #fff;
+    font-size: 15px;
+}
+
+.containerForm img{
+    width: 125px;
+}
+
+.input {
+    border: 2px solid rgba(74, 74, 77, 1);
+    border-radius: 5px;
+    width: 190px;
+    margin: 8px 0;
+  }
+
+.container-botao{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    background-color: #6fa2e6;
+    width: 180px;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.botao:hover{
+    background-color: rgba(41, 120, 238, 0.53);
+}
